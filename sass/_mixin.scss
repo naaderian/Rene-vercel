@@ -1,0 +1,7 @@
+@mixin Transition ($s , $x){
+    transition: all #{$s}s #{$x};
+    -webkit-transition: all #{$s}s #{$x};
+    -moz-transition: all #{$s}s  #{$x};
+    -ms-transition: all #{$s}s  #{$x};
+    -o-transition: all #{$s}s  #{$x};
+}
